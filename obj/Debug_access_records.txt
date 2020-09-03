@@ -1,0 +1,2 @@
+Login time = 4/12/2020 12:04:09 PM, userName = test
+Logout time = 4/12/2020 12:04:14 PM, userName = test

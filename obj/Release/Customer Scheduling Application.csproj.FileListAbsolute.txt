@@ -1,0 +1,33 @@
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\Customer Scheduling Application.exe.config
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\Customer Scheduling Application.exe
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\Customer Scheduling Application.pdb
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\Google.Protobuf.dll
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\MySql.Data.dll
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\Renci.SshNet.dll
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\Ubiety.Dns.Core.dll
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\Google.Protobuf.xml
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\MySql.Data.xml
+C:\Users\Spencer\source\repos\Customer Scheduling Application\bin\Release\Renci.SshNet.xml
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer Scheduling Application.csprojAssemblyReference.cache
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Add_Customer.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Add_User.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Add_Appointment.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Appointment_Report_by_Consultant.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Appointment_Report_by_Customer.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Appointment_Report_by_Month.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Count_Report_by_Type.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Delete_Appointment.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Delete_Customer.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Delete_User.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Login.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Modify_Appointment.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Modify_Customer.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Modify_User.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Portal.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer_Scheduling_Application.Properties.Resources.resources
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer Scheduling Application.csproj.GenerateResource.cache
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer Scheduling Application.csproj.CoreCompileInputs.cache
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer Scheduling Application.csproj.CopyComplete
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer Scheduling Application.exe
+C:\Users\Spencer\source\repos\Customer Scheduling Application\obj\Release\Customer Scheduling Application.pdb

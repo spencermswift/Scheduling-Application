@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D58E8AC-1826-4FC9-BD53-0FBC17A75A80}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Customer_Scheduling_Application</RootNamespace>
+    <AssemblyName>Customer Scheduling Application</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.19\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.19\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Customer.Designer.cs">
+      <DependentUpon>Add Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add User.Designer.cs">
+      <DependentUpon>Add User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Appointment.Designer.cs">
+      <DependentUpon>Add_Appointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment Report by Consultant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appointment Report by Consultant.Designer.cs">
+      <DependentUpon>Appointment Report by Consultant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment Report by Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appointment Report by Customer.Designer.cs">
+      <DependentUpon>Appointment Report by Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment Report by Month.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appointment Report by Month.Designer.cs">
+      <DependentUpon>Appointment Report by Month.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Count Report by Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Count Report by Type.Designer.cs">
+      <DependentUpon>Count Report by Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase.cs" />
+    <Compile Include="Delete Appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete Appointment.Designer.cs">
+      <DependentUpon>Delete Appointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete Customer.Designer.cs">
+      <DependentUpon>Delete Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete User.Designer.cs">
+      <DependentUpon>Delete User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify Appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify Appointment.Designer.cs">
+      <DependentUpon>Modify Appointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify Customer.Designer.cs">
+      <DependentUpon>Modify Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify User.Designer.cs">
+      <DependentUpon>Modify User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Portal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Portal.Designer.cs">
+      <DependentUpon>Portal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recording.cs" />
+    <EmbeddedResource Include="Add Customer.resx">
+      <DependentUpon>Add Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add User.resx">
+      <DependentUpon>Add User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Appointment.resx">
+      <DependentUpon>Add_Appointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Appointment Report by Consultant.resx">
+      <DependentUpon>Appointment Report by Consultant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Appointment Report by Customer.resx">
+      <DependentUpon>Appointment Report by Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Appointment Report by Month.resx">
+      <DependentUpon>Appointment Report by Month.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Count Report by Type.resx">
+      <DependentUpon>Count Report by Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete Appointment.resx">
+      <DependentUpon>Delete Appointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete Customer.resx">
+      <DependentUpon>Delete Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete User.resx">
+      <DependentUpon>Delete User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify Appointment.resx">
+      <DependentUpon>Modify Appointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify Customer.resx">
+      <DependentUpon>Modify Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify User.resx">
+      <DependentUpon>Modify User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Portal.resx">
+      <DependentUpon>Portal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
